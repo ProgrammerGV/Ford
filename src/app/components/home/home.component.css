@@ -1,0 +1,76 @@
+.geral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.paginaesquerda {
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.imagemcarro{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.ranger{
+    width: 80%;
+    height: auto;
+    opacity: 0.7;
+}
+
+.paginadireita {
+    background-color: rgb(243, 243, 243);
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.caixalogin {
+    border-radius: 10px;
+    padding: 40px 30px;
+    background-color: whitesmoke;
+
+}
+
+.form-group, .form-switch {
+    margin-bottom: 15px;
+} 
+
+.form-switch {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.form-check-label {
+    display: flex;
+    margin-right: 80px;
+}
+
+.caixadetexto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.boas-vindas {
+    color: var(--colorVerde);
+
+}
+
