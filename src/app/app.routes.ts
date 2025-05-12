@@ -1,13 +1,31 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './components/home/home.component';
 
 export const routes: Routes = [
     {
         path: "",
-        component: HomeComponent
+        pathMatch: "full",
+        loadComponent: () => {
+            return import("./pages/login/login.component")
+                .then(c => c.LoginComponent)
+        }
     },
+
     {
         path: "home",
-        component: HomeComponent
+        pathMatch: "full",
+        loadComponent: () => {
+            return import("./pages/home/home.component")
+                .then(c => c.HomeComponent)
+        }
+    },
+
+    {
+        path: "dashboard",
+        pathMatch: "full",
+        loadComponent: () => {
+            return import("./pages/dashboard/dashboard.component")
+                .then(c => c.DashboardComponent)
+        }
     }
+
 ];

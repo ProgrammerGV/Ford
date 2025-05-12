@@ -42,15 +42,37 @@
 }
 
 .caixalogin {
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 40px 30px;
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 4px 2px #00000048;
+    margin-bottom: 220px;
 
+}
+
+.form-group {
+    display: flex;
 }
 
 .form-group, .form-switch {
     margin-bottom: 15px;
 } 
+
+.form-control {
+    padding-left: 25px;
+}
+
+.bi-person-circle {
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.bi-lock {
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 5px;
+}
 
 .form-switch {
     display: flex;
@@ -72,5 +94,17 @@
 .boas-vindas {
     color: var(--colorVerde);
 
+}
+
+.logobox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.logoford {
+    width: auto ;
+    height: 100px;
 }
 
