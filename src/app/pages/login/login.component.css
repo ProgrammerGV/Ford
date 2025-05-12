@@ -92,8 +92,7 @@
 }
 
 .boas-vindas {
-    color: var(--colorVerde);
-
+    color: var(--colorAzulfraco);
 }
 
 .logobox {
@@ -107,4 +106,3 @@
     width: auto ;
     height: 100px;
 }
-
