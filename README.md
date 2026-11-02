@@ -1,59 +1,28 @@
-# DesafioAngular
+# Ford — aplicação Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.6.
+Projeto de interface web com Angular 19 e Bootstrap 5. O código organiza três páginas carregadas por rota: login (`/`), home (`/home`) e dashboard (`/dashboard`).
 
-## Development server
+## Executar
 
-To start a local development server, run:
-
-```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Requer Node.js e npm compatíveis com Angular 19.
 
 ```bash
-ng generate component component-name
+npm ci
+npm start
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Abra `http://localhost:4200`. Para gerar o build, execute `npm run build`. O comando `npm test` executa a suíte configurada com Jasmine e Karma.
 
-```bash
-ng generate --help
-```
+## Organização
 
-## Building
+- `src/app/pages/`: componentes e templates de login, home e dashboard.
+- `src/app/app.routes.ts`: rotas com carregamento dos componentes.
+- `src/styles.css`: estilos globais.
 
-To build the project run:
+## Limites da versão
 
-```bash
-ng build
-```
+É um projeto de interface. A existência de uma página de login não demonstra autenticação real. Na versão inspecionada para esta documentação, os componentes das três páginas não contêm lógica de integração com backend. Não são alegados API, persistência ou autorização implementadas.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Esta revisão descreve o código existente; não altera funcionalidades nem declara que o build foi executado nesta revisão de documentação.
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Desenvolvido por [Gabriel Vinicius](https://github.com/ProgrammerGV). Outro projeto: [Edital Inteligente](https://github.com/ProgrammerGV/edital-inteligente), com busca em PDFs, avaliação e fontes por página.
