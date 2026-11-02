@@ -1,5 +1,9 @@
 # Ford — aplicação Angular
 
+**Interface online:** https://programmergv.github.io/Ford/
+
+A publicação usa GitHub Pages e rotas com fragmento (`#/home`, `#/dashboard`) para funcionar em hospedagem estática. A tela de login é um protótipo visual; home e dashboard ainda são esboços de componentes. Não é necessário fornecer credenciais reais para visualizar a interface.
+
 Projeto de interface web com Angular 19 e Bootstrap 5. O código organiza três páginas carregadas por rota: login (`/`), home (`/home`) e dashboard (`/dashboard`).
 
 ## Executar
